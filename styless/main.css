@@ -1,20 +1,20 @@
 @media screen and (max-width: 600px) {
   .header {
     display: none;
-    border: 1px solid red;
+   
   }
 }
 .container {
   margin: 0px auto;
   max-width: 1400px;
   position: relative;
-  border: 1px solid red;
+  
 }
 
 .mini-container {
   margin: 0px auto;
   max-width: 1200px;
-  border: 1px solid blue;
+ 
 }
 
 .header {
