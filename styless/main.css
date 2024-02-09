@@ -8,11 +8,13 @@
   margin: 0px auto;
   max-width: 1400px;
   position: relative;
+  border: 1px solid red;
 }
 
 .mini-container {
   margin: 0px auto;
-  width: 1200px;
+  max-width: 1200px;
+  border: 1px solid blue;
 }
 
 .header {
@@ -312,7 +314,7 @@ html {
 }
 
 .footer {
-  margin-top: 50px;
+  margin-top: 1450px;
   background: url("../images/5e865e09d8efa3b4c076b5ee_BG_20Shape_20Content.svg");
   background-repeat: no-repeat;
   height: 500px;
@@ -394,6 +396,109 @@ html {
   left: 1px;
 }
 
+.pick-up__text {
+  background-image: url("../images/5e865e09d8efa3b4c076b5ee_BG_20Shape_20Content.svg");
+  height: 300px;
+  width: 100%;
+}
+.pick-up__text h1 {
+  margin-top: 30px;
+  font-size: 44px;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+
+.header__text-pick-up {
+  margin-top: 60px;
+}
+
+.buttons {
+  margin-top: 50px;
+  text-align: center;
+  border-radius: 8px;
+}
+.buttons .amazing {
+  background-image: url("../images/5e865e09d8efa36d5976b5d3_Banner_20Wave.svg");
+  background-color: rgb(60, 174, 163);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  padding: 10px;
+  width: 150px;
+  height: 50px;
+  margin-top: 30px;
+}
+.buttons button {
+  padding: 10px;
+  font-size: 16px;
+  width: 150px;
+  height: 50px;
+  border-radius: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  margin-left: 90px;
+  background-color: white;
+  color: black;
+}
+
+.card-menus {
+  display: inline-block;
+  margin: 50px 0px 0px 70px;
+}
+.card-menus .card {
+  padding: 13px;
+  width: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  width: 500px;
+  height: 160px;
+  display: flex;
+  gap: 20px;
+}
+.card-menus .card input {
+  width: 25px;
+  background-color: #eee;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 7px;
+}
+.card-menus .card p {
+  color: rgba(0, 0, 0, 0.6);
+}
+.card-menus .card button {
+  padding: 7px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(60, 174, 163);
+  color: white;
+}
+.card-menus .card img {
+  width: 150px;
+  border-radius: 15px;
+}
+
+.home-foot-img {
+  width: 700px;
+}
+
+.pick-up-button {
+  margin: 40px 0px 0px 520px;
+  background-image: url("../images/5e865e09d8efa36d5976b5d3_Banner_20Wave.svg");
+  background-color: rgb(60, 174, 163);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  padding: 10px;
+  width: 200px;
+  height: 50px;
+  margin-top: 30px;
+}
+
+.sonlar {
+  width: 1400px;
+}
+
 @media screen and (max-width: 600px) {
   .header {
     display: none;
@@ -402,13 +507,16 @@ html {
     max-width: 600px;
   }
   .container {
+    margin: 0px auto;
     text-align: center;
-    width: 600px;
+    max-width: 600px;
+    border: 1px solid red;
   }
   .navbar__menus {
     display: none;
   }
   .delivered {
+    text-align: center;
     flex-wrap: wrap;
   }
   .delivered .delivered__box {
@@ -419,6 +527,9 @@ html {
   }
   .delivered .delivered__text {
     width: 100%;
+  }
+  .delivered .delivered__text img {
+    display: none;
   }
   .delivered .delivered__text p {
     width: 50%;
