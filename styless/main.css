@@ -507,7 +507,6 @@ html {
   .container {
     text-align: center;
     max-width: 600px;
-    border: 1px solid red;
   }
   .navbar__menus {
     display: none;
