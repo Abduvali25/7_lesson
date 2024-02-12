@@ -590,6 +590,7 @@ html {
   .pick-up .pick-up__text {
     text-align: start;
     background-image: none;
+    display: none;
   }
   .pick-up .pick-up__text h1 {
     text-align: start;
