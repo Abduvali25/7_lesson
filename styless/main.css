@@ -499,7 +499,6 @@ html {
 
 @media screen and (max-width: 600px) {
   .container {
-   
     max-width: 600px;
   }
   .footer {
@@ -513,7 +512,6 @@ html {
   }
   .navbar {
     max-width: 570px;
-    
   }
   .delivered__box {
     flex-wrap: wrap;
@@ -600,13 +598,12 @@ html {
     display: none;
   }
   .card-menus {
-    text-align: start;
     flex-wrap: wrap;
     flex-direction: column;
     width: 45%;
   }
   .card-menus .card {
-    width: 450px;
+    width: 100%;
   }
   .card-menus .card__img {
     flex: 100%;
@@ -620,7 +617,7 @@ html {
   .and-box {
     margin: 20px 620px 0px 0px;
   }
-  .container{
+  .container {
     overflow-x: hidden;
   }
 }/*# sourceMappingURL=main.css.map */

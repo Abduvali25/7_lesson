@@ -599,7 +599,7 @@ html {
 @media  screen and (max-width:600px) {
    
     .container{
-        border: 1px solid blue;
+        
         max-width: 600px;
     }
     .footer{
@@ -613,7 +613,7 @@ html {
     }
     .navbar{
         max-width: 570px;
-        border:1px solid red;
+      
     }
 
 .delivered__box{
@@ -715,13 +715,13 @@ html {
         display:none;
     }
     .card-menus{
-        text-align:start;
+        
         flex-wrap: wrap;
         flex-direction: column;
         width: 45%;
       
         .card{
-            width: 450px;
+            width: 100%;
         }
         .card__img{
             flex: 100%;
@@ -736,5 +736,7 @@ html {
     .and-box{
         margin:20px 620px 0px 0px;
     }
-   
+    .container{
+        overflow-x: hidden;
+      }
 }
