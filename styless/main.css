@@ -499,7 +499,7 @@ html {
 
 @media screen and (max-width: 600px) {
   .container {
-    border: 1px solid blue;
+   
     max-width: 600px;
   }
   .footer {
@@ -513,7 +513,7 @@ html {
   }
   .navbar {
     max-width: 570px;
-    border: 1px solid red;
+    
   }
   .delivered__box {
     flex-wrap: wrap;
@@ -619,5 +619,8 @@ html {
   }
   .and-box {
     margin: 20px 620px 0px 0px;
+  }
+  .container{
+    overflow-x: hidden;
   }
 }/*# sourceMappingURL=main.css.map */
